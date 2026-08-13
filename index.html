@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PoleraLab — Poleras urbanas premium</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS propio -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#hero">PoleraLab</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pricing">Precios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            <li class="nav-item">
+              <button id="btn-tema" class="btn btn-sm btn-outline-light ms-lg-2">🌙 Oscuro</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section id="hero" class="hero-section d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h1 class="display-4 fw-bold mb-3">Poleras que hablan por ti</h1>
+            <p class="lead mb-4">Diseños urbanos exclusivos, algodón premium 100% y envíos a todo Chile. Expresa tu estilo sin límites.</p>
+            <a href="#pricing" class="btn btn-primary btn-lg me-2">Ver planes</a>
+            <a href="#features" class="btn btn-outline-light btn-lg">Descubrir más</a>
+          </div>
+          <div class="col-lg-6 text-center mt-5 mt-lg-0">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600" 
+                 alt="Modelo usando polera PoleraLab negra con diseño urbano" 
+                 class="img-fluid rounded-4 shadow-lg hero-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section id="features" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">¿Por qué PoleraLab?</h2>
+          <p class="text-muted">Calidad, diseño y comodidad en cada prenda</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 feature-card text-center p-4">
+              <div class="feature-icon mb-3">🧵</div>
+              <h5 class="fw-semibold">Algodón Premium</h5>
+              <p class="text-muted mb-0">100% algodón peinado de alta densidad. Suave, resistente y que no se deforma.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 feature-card text-center p-4">
+              <div class="feature-icon mb-3">🎨</div>
+              <h5 class="fw-semibold">Diseños Exclusivos</h5>
+              <p class="text-muted mb-0">Ilustraciones originales creadas por artistas chilenos. Ediciones limitadas.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 feature-card text-center p-4">
+              <div class="feature-icon mb-3">🚚</div>
+              <h5 class="fw-semibold">Envío Rápido</h5>
+              <p class="text-muted mb-0">Despacho en 24-48 hrs a todo Chile. Seguimiento incluido.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIOS ========== -->
+    <section id="testimonios" class="py-5 bg-light-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Lo que dicen nuestros clientes</h2>
+          <p class="text-muted">Más de 2.400 poleras vendidas en Chile</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card testimonial-card h-100 p-4">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" 
+                     alt="Foto de Camila R." class="rounded-circle me-3" width="56" height="56">
+                <div>
+                  <h6 class="mb-0 fw-semibold">Camila R.</h6>
+                  <small class="text-muted">Santiago</small>
+                </div>
+              </div>
+              <p class="mb-0">“La calidad del algodón es increíble. El diseño no se cuartea ni después de 15 lavados. Ya compré 3.”</p>
+              <div class="mt-3 text-warning">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card testimonial-card h-100 p-4">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" 
+                     alt="Foto de Matías L." class="rounded-circle me-3" width="56" height="56">
+                <div>
+                  <h6 class="mb-0 fw-semibold">Matías L.</h6>
+                  <small class="text-muted">Valparaíso</small>
+                </div>
+              </div>
+              <p class="mb-0">“Llegó en 2 días. El fit es perfecto y el print se ve premium. Recomendadísimo.”</p>
+              <div class="mt-3 text-warning">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card testimonial-card h-100 p-4">
+              <div class="d-flex align-items-center mb-3">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" 
+                     alt="Foto de Javiera M." class="rounded-circle me-3" width="56" height="56">
+                <div>
+                  <h6 class="mb-0 fw-semibold">Javiera M.</h6>
+                  <small class="text-muted">Concepción</small>
+                </div>
+              </div>
+              <p class="mb-0">“Me encantó el diseño exclusivo. Se nota que es edición limitada. Volveré a comprar.”</p>
+              <div class="mt-3 text-warning">★★★★☆</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PRICING ========== -->
+    <section id="pricing" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold">Planes y precios</h2>
+          <p class="text-muted">Elige el que mejor se adapte a ti</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-md-4">
+            <div class="card pricing-card h-100 text-center p-4">
+              <h5 class="fw-semibold">Básico</h5>
+              <div class="price my-3">
+                <span class="display-6 fw-bold">$12.990</span>
+              </div>
+              <ul class="list-unstyled mb-4">
+                <li class="mb-2">1 polera</li>
+                <li class="mb-2">Diseño de catálogo</li>
+                <li class="mb-2">Envío estándar</li>
+                <li class="mb-2 text-muted">Sin personalización</li>
+              </ul>
+              <a href="#contacto" class="btn btn-outline-primary w-100">Elegir plan</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card pricing-card popular h-100 text-center p-4">
+              <span class="badge bg-accent mb-2">Más popular</span>
+              <h5 class="fw-semibold">Pack 3</h5>
+              <div class="price my-3">
+                <span class="display-6 fw-bold">$32.990</span>
+              </div>
+              <ul class="list-unstyled mb-4">
+                <li class="mb-2">3 poleras</li>
+                <li class="mb-2">Diseños exclusivos</li>
+                <li class="mb-2">Envío express gratis</li>
+                <li class="mb-2">1 personalización incluida</li>
+              </ul>
+              <a href="#contacto" class="btn btn-primary w-100">Elegir plan</a>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card pricing-card h-100 text-center p-4">
+              <h5 class="fw-semibold">Pro / Empresas</h5>
+              <div class="price my-3">
+                <span class="display-6 fw-bold">$89.990</span>
+              </div>
+              <ul class="list-unstyled mb-4">
+                <li class="mb-2">10 poleras</li>
+                <li class="mb-2">Diseño a medida</li>
+                <li class="mb-2">Envío prioritario</li>
+                <li class="mb-2">Soporte dedicado</li>
+              </ul>
+              <a href="#contacto" class="btn btn-outline-primary w-100">Elegir plan</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACTO ========== -->
+    <section id="contacto" class="py-5 bg-light-section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="text-center mb-5">
+              <h2 class="fw-bold">¿Listo para tu próxima polera?</h2>
+              <p class="text-muted">Escríbenos y te respondemos en menos de 24 horas</p>
+            </div>
+
+            <form id="form-contacto" class="card p-4 p-md-5 shadow-sm border-0" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="nombre" class="form-label">Nombre completo</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" required placeholder="Ej: Ana Pérez">
+                  <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Correo electrónico</label>
+                  <input type="email" class="form-control" id="email" name="email" required placeholder="tu@email.com">
+                  <div class="invalid-feedback" id="email-feedback">Ingresa un correo válido.</div>
+                </div>
+
+                <div class="col-12">
+                  <label for="plan" class="form-label">Plan de interés</label>
+                  <select class="form-select" id="plan" name="plan">
+                    <option value="">Selecciona un plan (opcional)</option>
+                    <option value="basico">Básico — $12.990</option>
+                    <option value="pack3">Pack 3 — $32.990</option>
+                    <option value="pro">Pro / Empresas — $89.990</option>
+                  </select>
+                </div>
+
+                <div class="col-12">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required
+                            placeholder="Cuéntanos qué diseño te gusta o si necesitas personalización..."></textarea>
+                  <div class="invalid-feedback">Escribe un mensaje.</div>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-lg w-100" id="btn-enviar">
+                    Enviar mensaje
+                  </button>
+                </div>
+              </div>
+
+              <div id="mensaje-exito" class="alert alert-success mt-4 d-none" role="alert">
+                ¡Mensaje enviado con éxito! Te contactaremos pronto.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+          <strong>PoleraLab</strong> © 2026 — Todos los derechos reservados
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <a href="#" class="footer-link me-3">Instagram</a>
+          <a href="#" class="footer-link me-3">TikTok</a>
+          <a href="#contacto" class="footer-link">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS propio -->
+  <script src="js/main.js"></script>
+</body>
+</html>
