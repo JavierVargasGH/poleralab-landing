@@ -1,4 +1,4 @@
-// ========== EVENTO 1: Modo oscuro ==========
+// ========== EVENTO 1: Toggle modo oscuro ==========
 const btnTema = document.getElementById('btn-tema');
 
 btnTema.addEventListener('click', () => {

@@ -14,7 +14,7 @@ PoleraLab es una landing page de una tienda ficticia especializada en poleras de
 
 ## Demo
 
-- Sitio desplegado: [URL de gh ]
+- Sitio desplegado: [URL de GitHub Pages si aplica]
 - Capturas:
 
 ![Hero](docs/hero.png)

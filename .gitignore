@@ -3,6 +3,18 @@
 Thumbs.db
 desktop.ini
 
+# Editores / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs y temporales
+*.log
+npm-debug.log*
+.cache/
+tmp/
 # Visual Studio Code
 .vscode/
 .idea/
@@ -20,6 +32,12 @@ package-lock.json
 .env
 .env.local
 
+# Dependencias (no aplica en este módulo, pero buen hábito)
+node_modules/
+
+# Builds
+dist/
+build/
 # Carpetas de build (por si usas alguna herramienta)
 dist/
 build/

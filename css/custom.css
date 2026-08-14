@@ -3,7 +3,7 @@
   --color-primario: #0f172a;
   --color-acento: #f43f5e;
   --color-fondo: #f8fafc;
-  --color-texto: #1e293b;
+  --color-texto: #192231;
   --fuente-titulo: 'Outfit', sans-serif;
   --fuente-cuerpo: 'Inter', sans-serif;
   --radio: 1rem;
@@ -107,6 +107,7 @@ h1, h2, h3, h4, h5, .navbar-brand {
   color: white;
 }
 
+/* ========== NELMER ========== */
 /* ========== SECCIONES ESTUDIANTE 2 ========== */
 .bg-light-section {
   background-color: #f1f5f9;
